@@ -41,9 +41,23 @@ function clickButton() {
             } else if(buttons[i].classList.contains('sign')) {
                 inputSign(displayValue);
                 updateDisplay();
-            } else if(buttons[i].classList.contains('clear'))
+            } else if(buttons[i].classList.contains('clear')) {
                 clearDisplay();
                 updateDisplay();
+            } else if(buttons[i].classList.contains('pi')) {
+                inputPi();
+                updateDisplay();
+            } else if(buttons[i].classList.contains('e')) {
+                inputE();
+                updateDisplay();
+            } else if(buttons[i].classList.contains('sin')) {
+                inputSin();
+                updateDisplay();
+            } else if(buttons[i].classList.contains('cos')) {
+                inputCos();
+                updateDisplay();
+            } 
+            
         }
     )}
 }
@@ -181,4 +195,20 @@ function operate(x, y, op) {
 
 function roundAccurately(num, places) {
     return parseFloat(Math.round(num + 'e' + places) + 'e-' + places);
+}
+
+function inputPi() {
+    displayValue = Math.PI.toString();
+}
+
+function inputE() {
+    displayValue = Math.E.toString();
+}
+
+function inputSin(num) {
+    displayValue = (Math.sin(num)).toString();
+}
+
+function inputCos(num) {
+    displayValue = (Math.cos(num)).toString();
 }
