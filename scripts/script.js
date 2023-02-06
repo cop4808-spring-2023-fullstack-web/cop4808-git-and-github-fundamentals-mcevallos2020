@@ -51,10 +51,10 @@ function clickButton() {
                 inputE();
                 updateDisplay();
             } else if(buttons[i].classList.contains('sin')) {
-                inputSin();
+                inputSin(displayValue);
                 updateDisplay();
             } else if(buttons[i].classList.contains('cos')) {
-                inputCos();
+                inputCos(displayValue);
                 updateDisplay();
             } 
             
@@ -206,9 +206,9 @@ function inputE() {
 }
 
 function inputSin(num) {
-    displayValue = (Math.sin(num)).toString();
+    displayValue = Math.sin(num).toString();
 }
 
 function inputCos(num) {
-    displayValue = (Math.cos(num)).toString();
+    displayValue = Math.cos(num).toString();
 }
