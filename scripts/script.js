@@ -198,17 +198,17 @@ function roundAccurately(num, places) {
 }
 
 function inputPi() {
-    displayValue = Math.PI.toString();
+    displayValue = Math.PI.toString(); //π function utilizing Math.PI value, then converting it into a string for display
 }
 
 function inputE() {
-    displayValue = Math.E.toString();
+    displayValue = Math.E.toString(); //e function utilizing Math.E value, then converting it into a string for display
 }
 
 function inputSin(num) {
-    displayValue = Math.sin(num).toString();
+    displayValue = Math.sin(num).toString();  //sin function utilizing Math.sin function, taking user input to evaluate, then converting it into a string for display
 }
 
 function inputCos(num) {
-    displayValue = Math.cos(num).toString();
+    displayValue = Math.cos(num).toString(); //cos function utilizing Math.cos function, taking user input to evaluate, then converting it into a string for display
 }

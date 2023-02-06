@@ -110,17 +110,18 @@ button {
 }
 
 .e {
-    background-color:palevioletred
-}
+    background-color:palevioletred /* class for e button with unique background color */
+} 
+
 
 .pi {
-    background-color:palevioletred
+    background-color:palevioletred /* class for π button with unique background color */
 }
 
 .sin {
-    background-color:palevioletred
+    background-color:palevioletred /* class for sin button with unique background color */
 }
 
 .cos {
-    background-color:palevioletred
+    background-color:palevioletred /* class for cos button with unique background color */
 }
